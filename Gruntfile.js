@@ -2,7 +2,7 @@ module.exports = function (){
   grunt.initConfig({
     less:{
       compile:{
-        files:{ 'css/':'less/' }
+        files:{ 'dist/compiled.css': 'css/*.less' }
       }
     }
   });
